@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Test
 =======
+=======
+>>>>>>> 3919844... init
 import MySQLdb
 import config
 
@@ -22,4 +25,7 @@ def connection():
     c = conn.cursor()
 
     return c, conn
+<<<<<<< HEAD
 >>>>>>> aaffeff... shhh
+=======
+>>>>>>> 3919844... init

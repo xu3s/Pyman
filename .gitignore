@@ -129,8 +129,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 # Test file
 *test*.py
 >>>>>>> aaffeff... shhh
+=======
+
+# Test file
+*test*.py
+>>>>>>> 3919844... init
