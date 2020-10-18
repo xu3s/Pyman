@@ -9,9 +9,9 @@ def tuplejoin(data):
 class manquery2:
     '''
     :@param self:
-    :@param myParam1:
-    :@param myParam2:
-    :@return:
+    :@dbdata,dbname,mquery,thequery
+    :@SELECT dbdata FROM dbname WHERE mquery = thequery
+    :@retun:
     '''
 
     def __init__(self,**x):
