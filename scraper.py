@@ -22,7 +22,7 @@ reql = req.get(slink, headers=header)
 pres = reql.content
 psoup = bsoup(pres, 'html.parser')
 # print(psoup)
-?!?jedi=0, ?!?               (name=None, attrs={}, recursive=True, text=None, *_***kwargs*_*) ?!?jedi?!?
+
 a1 = psoup.find('div', class_='episodes-wrap')
 a2 = a1.find_all('a', class_='episode-item')
 
