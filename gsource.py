@@ -12,7 +12,6 @@ class gsrc:
 
     def get_detail(self):
 
-
         slink = self.burl + "/en/detail/" + self.mangaid
         r = req.get(slink, headers=self.header)
         psoup = bsoup(r.content, 'html.parser')
